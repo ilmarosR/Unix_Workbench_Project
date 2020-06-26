@@ -1,6 +1,5 @@
 README.md:
-	echo "# " >> README.md
-	echo "Bash, Make, Git, and GitHub" > README.md
+	echo "# Bash, Make, Git, and GitHub" > README.md
 	echo "\n" >> README.md
 	date >> README.md
 	echo "\n">> README.md
