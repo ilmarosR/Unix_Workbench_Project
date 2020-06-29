@@ -1,6 +1,5 @@
 README.md:
 	echo "Project title: " > README.md
-	echo "\n" >> README.md
 	echo "Bash, Make, Git, and GitHub" >> README.md
 	echo "\n" >> README.md
 	echo "Make was run: " >> README.md
