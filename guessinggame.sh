@@ -15,12 +15,14 @@ do
 
 	if [[ difference -eq 0 ]]
 	then
-		echo "Congratulations, you guessed right! :)"	
-	elif [[ difference -lt 2 ]]
-	then
-		echo "Very close! Try one more time!"
-	elif [[ difference -gt 2 ]]
-	then
-		echo "Not even close! Try one more time!"
+		echo "Congratulations, you guessed right! :)"
+	else
+		if [[ difference -gt 0 ]]
+		then
+			echo "Too HIGH! Try one more time!"
+		elif [[ difference -lt 0 ]]
+		then
+			echo "Too LOW! Try one more time!"
+		fi
 	fi
 done
