@@ -1,7 +1,14 @@
-# Bash, Make, Git, and GitHub
+Project title: 
 
 
-Fri Jun 26 19:58:22 EEST 2020
+Bash, Make, Git, and GitHub
 
 
-      26 guessinggame.sh
+Make was run: 
+Mon Jun 29 14:10:13 EEST 2020
+
+
+Number of lines: 
+      28 guessinggame.sh
+
+
