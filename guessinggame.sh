@@ -1,4 +1,4 @@
-\function askQuestion {
+function askQuestion {
 	echo "How many files are in the current directory?"
 	read response
 
