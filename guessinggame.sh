@@ -1,6 +1,12 @@
 function askQuestion {
 	echo "How many files are in the current directory?"
 	read response
+
+	if [[ ! $response =~ [0-9] ]]
+	then
+		echo "ERROR: Input must be a number!"
+		break
+	fi	
 }
 
 user_guess=response
