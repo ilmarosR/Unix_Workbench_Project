@@ -11,7 +11,7 @@ function askQuestion {
 
 user_guess=response
 
-file_count=$(ls | wc -l)
+file_count=$(ls -l | grep ^- | wc -l)
 
 difference=user_guess-file_count
 
