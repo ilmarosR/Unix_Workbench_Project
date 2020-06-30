@@ -1,11 +1,11 @@
-function askQuestion {
+\function askQuestion {
 	echo "How many files are in the current directory?"
 	read response
 
-	if [[ ! $response =~ [0-9] ]]
+	if [[ ! $response =~ [0-9] ]] || [[ ! $response =~ ^[0-9] ]] || [[ ! $response =~ [0-9]$ ]]
 	then
 		echo "ERROR: Input must be a number!"
-		break
+		askQuestion
 	fi	
 }
 
