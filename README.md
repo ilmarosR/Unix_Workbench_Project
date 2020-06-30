@@ -3,10 +3,9 @@ Bash, Make, Git, and GitHub
 
 
 Make was run: 
-Mon Jun 29 14:22:40 EEST 2020
+Tue Jun 30 11:34:22 EEST 2020
 
 
 Number of lines: 
-      28 guessinggame.sh
-
+      35 guessinggame.sh
 
